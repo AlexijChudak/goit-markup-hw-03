@@ -38,14 +38,13 @@ p {
 /* Navigation*/
 
 .hat {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .container {
-  outline: 2px solid red;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
