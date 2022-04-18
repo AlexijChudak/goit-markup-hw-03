@@ -264,8 +264,7 @@ footer {
 .box {    
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px; 
-   
+  padding-left: 165px;    
 }
 .footer-logo { 
   display: block;  
@@ -337,6 +336,9 @@ footer {
 .filter:focus {
   background-color: var(--animation-color);
   color: var(--secondary-color);
+}
+.projects {
+  padding-bottom: 94px;
 }
 .project-list {
   flex-wrap: wrap;  
