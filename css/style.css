@@ -22,10 +22,8 @@ p {
   color: #212121;    
 }
 .section {    
-  /* padding-bottom: 94px; */
   padding-top: 94px;
 }
-
 .ref {
   text-decoration: none;  
 }
@@ -141,7 +139,7 @@ background-color: var(--background-main-color);
 }
 .button:hover,
 .button:focus {
-  background:var(--animation-color);  
+  background-color: #188CE8;  
 }
 
 /* section features */
@@ -192,11 +190,7 @@ background-color: var(--background-main-color);
 }
 .specialization {
   text-align: center;
-  padding-bottom: 50px;
-  /* width: 376px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 50px; */
+  padding-bottom: 50px; 
 }
 .specialization-list {
   width: 370px;
@@ -223,11 +217,7 @@ background-color: var(--background-main-color);
 }
 .team-list {
   text-align: center;
-  padding-bottom: 50px;  
-  /* width: 264px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 50px; */
+  padding-bottom: 50px;   
 }
 .team-staff {
   display: block;
