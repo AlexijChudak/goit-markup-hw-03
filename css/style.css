@@ -262,9 +262,13 @@ footer {
   padding-top: 60px;
 }
 .box {    
+  width: 1200px;  
+  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 15px;    
+  padding-left: 15px;   
+  margin-right: auto; 
+  margin-left: auto;
 }
 .footer-logo { 
   display: block;  
