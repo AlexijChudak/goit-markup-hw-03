@@ -110,8 +110,7 @@ padding-top: 200px;
 padding-bottom: 200px;
 background-color: var(--background-main-color);
 }
-.slogan {
-  width: 1200px;
+.slogan {  
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
@@ -261,13 +260,13 @@ footer {
 .infooter {
   padding-top: 60px;
 }
-.box {    
+/* .box {    
   width: 1200px;  
   padding-right: 15px;  
   padding-left: 15px;   
   margin-right: auto; 
   margin-left: auto;
-}
+} */
 .footer-logo { 
   display: block;  
   margin-bottom: 20px;  
