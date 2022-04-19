@@ -69,15 +69,13 @@ p {
 .item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav.list {
-  padding: 0;
+.main.site-nav {
   margin-left: 93px;
 }
-.site-nav.item {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-.site-nav .link{  
+.site-nav .link{ 
+  display: block; 
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: currentColor;   
 }
 .site-nav .link:hover,
@@ -91,9 +89,10 @@ p {
   padding-left: 0;
   margin-left: auto;
 }
-.auth-nav.item {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.auth-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .auth-nav .link{
     color: var(--paragraph-text-color);   
@@ -107,6 +106,7 @@ p {
 /* hero */
 .hero {
 text-align: center;
+padding-top: 200px;
 padding-bottom: 200px;
 background-color: var(--background-main-color);
 }
@@ -190,7 +190,7 @@ background-color: var(--background-main-color);
 }
 .specialization {
   text-align: center;
-  padding-bottom: 50px; 
+  margin-bottom: 50px; 
 }
 .specialization-list {
   width: 370px;
@@ -217,7 +217,7 @@ background-color: var(--background-main-color);
 }
 .team-list {
   text-align: center;
-  padding-bottom: 50px;   
+  margin-bottom: 50px;   
 }
 .team-staff {
   display: block;
@@ -232,12 +232,11 @@ background-color: var(--background-main-color);
 .team-staff:nth-child(4n) {
   margin-right: 0;
 }
-.team-player {
-  margin-bottom: 30px;
-}
+
 .card {
  text-align: center;
-  
+ padding-top: 30px;
+ padding-bottom: 30px;  
 }
 .staff {
   margin-bottom: 10px;
@@ -245,8 +244,7 @@ background-color: var(--background-main-color);
   font-size: 16px;
   line-height: 1.19;
  }
-.staff-job {
-  margin-bottom: 30px;
+.staff-job { 
   font-size: 16px;
   line-height: 1.19;
      
@@ -256,6 +254,8 @@ background-color: var(--background-main-color);
 /* Footer */
 
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--background-main-color)
 }
 .infooter {
@@ -263,16 +263,14 @@ footer {
 }
 .box {    
   width: 1200px;  
-  padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-right: 15px;  
   padding-left: 15px;   
   margin-right: auto; 
   margin-left: auto;
 }
 .footer-logo { 
   display: block;  
-  padding-bottom: 20px;  
+  margin-bottom: 20px;  
   color: var(--secondary-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -289,7 +287,7 @@ footer {
   list-style-type: none;  
 }
 .address-item:not(:last-child) {
-  padding-bottom: 5px;
+  margin-bottom: 9px;
 }
 .post {
   font-style: normal;
@@ -324,7 +322,7 @@ footer {
   margin-left: 8px;
 }
 .filter {
-  padding: 4px 22px;
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -355,7 +353,7 @@ footer {
   margin-bottom: 30px;
 }
 .project-item {
-  margin-bottom: 0px;
+  display: block;
 }
 .project-border {
   border-right: 1px solid #EEEEEE;
@@ -364,7 +362,6 @@ footer {
   padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 20px;
-  margin-top: -4px;
   padding-top: 20px;
 }
 .project-name {
